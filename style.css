@@ -1,0 +1,122 @@
+@font-face {
+  font-family: Overpass;
+  src: url(./assets/font/Overpassr.ttf);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e1e1e;
+  height: 100vh;
+}
+.card-cont{
+  max-width: 400px;
+  background: linear-gradient(180deg, rgba(65,76,91,1) 0%, rgba(37,48,64,1) 39%);
+  padding: 20px 30px;
+  border-radius: 30px;
+  font-family: Overpass;
+}
+.card-content{
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+.card-header{
+  display: flex;
+  align-items: center;
+}
+.card-idcon{
+  background-color: hsl(216, 12%, 54%);
+  padding: 18px 17px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+}
+.card-header{
+  width: 100%;
+}
+.card-texts{
+  color: #ffff;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.card-texts p{
+  width: 80%;
+}
+.card-rate-number{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.card-rate-number a{
+  text-decoration: none;
+  color: hsl(217, 12%, 63%);
+  display: inline-block;
+  padding: 15px 21px;
+  border-radius: 50%;
+  background-color: hsl(213, 19%, 18%);
+}
+.card-rate-number a:hover{
+  background-color: hsl(217, 12%, 63%);
+  color: #fff;
+}
+.action{
+  background-color: rgb(226, 145, 24) !important;
+  color: #fff !important;
+}
+
+.card-content > a{
+  display: inline-flex;
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(226, 145, 24);
+  border-radius: 30px;
+  justify-content: center;
+  align-self: center;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+}
+
+
+.card-content> a:hover{
+  background-color: #fff;
+  color: rgb(226, 145, 24);
+}
+
+ 
+.after-tate-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.rate{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.rate h4{
+  padding: 5px 10px;
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 30px;
+  color: rgb(226, 145, 24);
+}
+.after-rate-text{
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
